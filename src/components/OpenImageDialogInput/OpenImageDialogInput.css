@@ -1,0 +1,10 @@
+.open-image-dialog-input {
+	display: grid;
+	grid-template-columns: 0.4fr 1fr;
+	align-items: center;
+	margin: 3px 0;
+}
+.open-image-dialog-input label {
+	text-align: right;
+	margin-right: 20px;
+}

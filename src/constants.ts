@@ -1,0 +1,13 @@
+export const SIDE_BAR_SIZE = 70;
+export const BUTTON_OPACITY = 0.85;
+export const DEFAULT_PEN_SIZE = 5;
+export const DEFAULT_CURRENT_COLOR = '#000000';
+export const MAX_PEN_SIZE = 50;
+export const MIN_PEN_SIZE = 1;
+export const SMALL_SCREEN_THRESHOLD = 500;
+export const COLOR_CHANGE_EVENT = 'color-change';
+export const SHORTCUT_KEY_PRESS_EVENT = 'shortcut-key-press';
+export const MAX_UNDO_REDO_STACK_LENGTH = 10;
+export const ERASER_RECT_STROKE_WIDTH = 5;
+export const LOCAL_STORAGE_SETTINGS_KEY = 'settings';
+export const LOCAL_STORAGE_THEME_KEY = 'theme';

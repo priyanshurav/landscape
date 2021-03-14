@@ -1,0 +1,18 @@
+.current-color {
+	border-radius: 50%;
+	width: calc(var(--side-bar-size) * 0.571);
+	height: calc(var(--side-bar-size) * 0.571);
+	margin: 10px;
+}
+.current-color.small-screen {
+	margin: 0;
+	margin-left: 10px;
+	width: calc(var(--side-bar-size) * 0.5);
+	height: calc(var(--side-bar-size) * 0.5);
+}
+.current-color.light {
+	border: 2px solid rgba(0, 0, 0, var(--button-opacity));
+}
+.current-color.dark {
+	border: 2px solid rgba(255, 255, 255, var(--button-opacity));
+}

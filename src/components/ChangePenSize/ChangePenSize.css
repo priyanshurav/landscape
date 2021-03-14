@@ -1,0 +1,47 @@
+.change-pen-size.light {
+	border: none;
+	border-top: 1px solid rgba(0, 0, 0, var(--button-opacity));
+}
+.change-pen-size.dark {
+	border: none;
+	border-top: 1px solid rgba(255, 255, 255, var(--button-opacity));
+}
+.change-pen-size.small-screen.light {
+	border: none;
+	border-left: 1px solid rgba(0, 0, 0, var(--button-opacity));
+}
+.change-pen-size.small-screen.dark {
+	border: none;
+	border-left: 1px solid rgba(255, 255, 255, var(--button-opacity));
+}
+.change-pen-size {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-grow: 1;
+	min-width: auto !important;
+	width: 100%;
+	height: auto;
+}
+.change-pen-size-input {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	font-size: 1.1rem;
+	outline: none;
+	width: 3ch;
+	min-width: 3ch;
+}
+.change-pen-size.dark .change-pen-size-input {
+	color: #fff;
+}
+.change-pen-size.light .change-pen-size-input {
+	color: #000;
+}
+.change-pen-size.small-screen {
+	margin-left: 10px;
+	flex-direction: row;
+	height: 100%;
+	width: auto;
+}

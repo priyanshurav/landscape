@@ -1,0 +1,34 @@
+.tool-bar-btn svg {
+	opacity: var(--button-opacity) !important;
+	height: 100%;
+	width: 100%;
+	transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+		stroke 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+}
+.tool-bar-btn.selected {
+	background-color: var(--selected-btn-bg);
+}
+.tool-bar-btn {
+	border-radius: 50%;
+	width: calc(var(--side-bar-size) * 0.857);
+	height: calc(var(--side-bar-size) * 0.857);
+	cursor: pointer;
+}
+.tool-bar-btn.small-screen {
+	width: calc(var(--side-bar-size) * 0.714);
+	height: calc(var(--side-bar-size) * 0.714);
+}
+.tool-bar-btn.dark svg {
+	fill: #fff !important;
+	stroke: #fff !important;
+}
+.tool-bar-btn.light svg {
+	fill: #777 !important;
+	stroke: #777 !important;
+}
+.tool-bar-btn.disabled svg {
+	opacity: 0.45 !important;
+}
+.tool-bar-btn.disabled {
+	cursor: not-allowed;
+}
