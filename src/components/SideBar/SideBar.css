@@ -1,61 +1,61 @@
 .tool-bar {
-	display: grid;
-	overflow-y: auto;
-	overflow-x: hidden;
-	justify-items: center;
-	grid-template-rows: repeat(var(--number-of-tools), 1fr);
-	grid-template-columns: none;
-	padding: 0 0 0 5px;
+    display: grid;
+    overflow-y: auto;
+    overflow-x: hidden;
+    justify-items: center;
+    grid-template-rows: repeat(var(--number-of-tools), 1fr);
+    grid-template-columns: none;
+    padding: 0 0 0 5px;
 }
 .tool-bar.small-screen {
-	align-items: center;
-	overflow-x: auto;
-	overflow-y: hidden;
-	grid-template-rows: none;
-	grid-template-columns: repeat(var(--number-of-tools), 1fr);
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    grid-template-rows: none;
+    grid-template-columns: repeat(var(--number-of-tools), 1fr);
 }
 .status {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow-y: auto;
-	overflow-x: hidden;
-	width: 100%;
-	flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    flex-direction: column;
 }
 .status.small-screen {
-	height: 100%;
-	flex-direction: row;
+    height: 100%;
+    flex-direction: row;
 }
 .status.light {
-	border: none;
-	border-top: 1px solid rgba(0, 0, 0, var(--button-opacity));
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, var(--button-opacity));
 }
 .status.dark {
-	border: none;
-	border-top: 1px solid rgba(255, 255, 255, var(--button-opacity));
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, var(--button-opacity));
 }
 .status.small-screen.light {
-	border: none;
-	border-left: 1px solid rgba(0, 0, 0, var(--button-opacity));
+    border: none;
+    border-left: 1px solid rgba(0, 0, 0, var(--button-opacity));
 }
 .status.small-screen.dark {
-	border: none;
-	border-left: 1px solid rgba(255, 255, 255, var(--button-opacity));
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, var(--button-opacity));
 }
 .tool-bar::-webkit-scrollbar {
-	width: 7px;
-	height: 7px;
+    width: 7px;
+    height: 7px;
 }
 .tool-bar::-webkit-scrollbar-track {
-	background-color: transparent;
+    background-color: transparent;
 }
 .tool-bar::-webkit-scrollbar-thumb {
-	border-radius: 3px;
+    border-radius: 3px;
 }
 .tool-bar.light::-webkit-scrollbar-thumb {
-	background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .tool-bar.dark::-webkit-scrollbar-thumb {
-	background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
