@@ -1,6 +1,6 @@
 {
-    "name": "paint-app",
-    "description": "A simple Paint Application",
+    "name": "painter",
+    "description": "A simple drawing application to show your creativity",
     "version": "1.0.0",
     "private": true,
     "license": "MIT",

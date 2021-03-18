@@ -1,3 +1,3 @@
-# Paint App
+# Painter
 
-This is a simple painting application made with [React](https://reactjs.org/)
+A simple drawing application to show your creativity

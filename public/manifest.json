@@ -1,6 +1,6 @@
 {
-  "short_name": "Paint App",
-  "name": "Paint App",
-  "start_url": ".",
-  "display": "standalone"
+    "short_name": "Painter",
+    "name": "Painter",
+    "start_url": ".",
+    "display": "standalone"
 }
