@@ -1,18 +1,17 @@
 .github-repo-link {
-    border-radius: 50%;
-    width: calc(var(--side-bar-size) * 0.571);
-    height: calc(var(--side-bar-size) * 0.571);
-    margin: 10px;
+  border-radius: 50%;
+  width: calc(var(--side-bar-size) * 0.571);
+  height: calc(var(--side-bar-size) * 0.571);
+  margin: 10px;
 }
 .github-repo-link.small-screen {
-    width: calc(var(--side-bar-size) * 0.5);
-    height: calc(var(--side-bar-size) * 0.5);
-    margin: 0;
-    margin-left: 10px;
+  width: calc(var(--side-bar-size) * 0.5);
+  height: calc(var(--side-bar-size) * 0.5);
+  margin: 0 5px 0 5px;
 }
 .github-repo-link.dark svg path {
-    fill: #ffffff !important;
+  fill: #ffffff !important;
 }
 .github-repo-link.light svg path {
-    fill: #1b1817 !important;
+  fill: #1b1817 !important;
 }
