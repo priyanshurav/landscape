@@ -1,51 +1,51 @@
 {
-    "name": "painter",
-    "description": "A simple drawing application to show your creativity",
-    "version": "1.0.0",
-    "private": true,
-    "license": "MIT",
-    "dependencies": {
-        "@material-ui/core": "^4.11.0",
-        "@material-ui/icons": "^4.9.1",
-        "@testing-library/jest-dom": "^5.11.5",
-        "@testing-library/react": "^11.1.1",
-        "@testing-library/user-event": "^12.2.0",
-        "@types/jest": "^26.0.15",
-        "@types/lodash": "^4.14.165",
-        "@types/node": "^12.19.3",
-        "@types/react": "^16.9.56",
-        "@types/react-color": "^3.0.4",
-        "@types/react-dom": "^16.9.9",
-        "react": "^17.0.1",
-        "react-color": "^2.19.3",
-        "react-dom": "^17.0.1",
-        "react-scripts": "4.0.0",
-        "typescript": "^4.0.5",
-        "web-vitals": "^0.2.4"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "node ./scripts/build.js",
-        "react-build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    }
+  "name": "landscape",
+  "description": "A simple drawing application to show your creativity",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.165",
+    "@types/node": "^12.19.3",
+    "@types/react": "^16.9.56",
+    "@types/react-color": "^3.0.4",
+    "@types/react-dom": "^16.9.9",
+    "react": "^17.0.1",
+    "react-color": "^2.19.3",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "node ./scripts/build.js",
+    "react-build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

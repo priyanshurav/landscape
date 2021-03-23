@@ -1,6 +1,6 @@
 {
-    "short_name": "Painter",
-    "name": "Painter",
-    "start_url": ".",
-    "display": "standalone"
+  "short_name": "Landscape",
+  "name": "Landscape",
+  "start_url": ".",
+  "display": "standalone"
 }
