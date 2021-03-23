@@ -6,23 +6,23 @@ import { useThemeContext } from "../../contexts/ThemeContext";
 import "./GitHubRepoLink.css";
 
 function GitHubRepoLink() {
-    const isScreenSmall = useIsScreenSmallContext();
-    const { theme } = useThemeContext();
+  const isScreenSmall = useIsScreenSmallContext();
+  const { theme } = useThemeContext();
 
-    return (
-        <Tooltip title="GitHub repository" arrow>
-            <a
-                href="https://github.com/priyanshurav/painter"
-                target="_blank"
-                className={`github-repo-link ${
-                    isScreenSmall ? "small-screen" : ""
-                } ${theme}`}
-                rel="noopener noreferrer"
-            >
-                <GitHubIcon />
-            </a>
-        </Tooltip>
-    );
+  return (
+    <Tooltip title="GitHub repository" arrow>
+      <a
+        href="https://github.com/priyanshurav/landscape"
+        target="_blank"
+        className={`github-repo-link ${
+          isScreenSmall ? "small-screen" : ""
+        } ${theme}`}
+        rel="noopener noreferrer"
+      >
+        <GitHubIcon />
+      </a>
+    </Tooltip>
+  );
 }
 
 export default GitHubRepoLink;
