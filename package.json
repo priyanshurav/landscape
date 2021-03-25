@@ -25,8 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node ./scripts/build.js",
-    "react-build": "react-scripts build",
+    "build": "rimraf build && cross-env GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "rimraf": "^2.6.3"
   }
 }
